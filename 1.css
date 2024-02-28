@@ -1,0 +1,139 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+header{
+background-color: orange;
+color: white;
+padding: 20px;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    margin-right: 20px;
+    font-size: 20px;
+}
+nav ul li:hover{
+    background-color: green;
+    padding: 15px;
+
+}
+h1{
+    margin: 30px 15px 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+main{
+    padding: 50px;
+
+}
+.section{margin-bottom: 50px;}
+.section p{
+    text-align: center;
+
+}
+.section h2{
+    text-align: center;
+    margin: 0 0 20px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.product{
+    width: calc(33.33%-20px);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.product img{
+    width: 400px;
+    margin-bottom: 20px;
+    border: 1px solid green;
+    border-radius: 10px;
+
+}
+.product h3{
+    margin: 0;
+}
+.product p{
+    margin: 10px 0;
+}
+.product button{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+section form{
+    margin-left: 35%;
+
+}
+section form input{
+    margin-left: 50%;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+}
+#email{
+    margin-left: 74px;
+
+}
+#message{
+    margin-left: 50px;
+}
+#f_name{
+    margin-left: 50px;
+}
+.section form button{
+    background-color: #333;
+    margin-top: 20px;
+    width: 50px;
+    height: 20px;
+    margin: 20px;
+}
+.section h2{
+    text-align: center;
+    margin: 0 0 20px;
+
+}
+form{ 
+    max-width: 500px;
+    margin: 0 auto;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input [type="text"],input [type="email"],input [type="password"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+footer{
+    background-color: orange;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+}
+button[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
